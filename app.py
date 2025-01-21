@@ -63,7 +63,7 @@ def assign_medications_to_patients(patients, medications):
     return patients.merge(medications, on='medication_id')
 
 def main():
-    st.title("Real-Time Healthcare Data Pipeline Dashboard")
+    st.title("Real-Time Healthcare Data Pipeline Dashboard!")
     st.write("This dashboard simulates a real-time CI/CD data pipeline for a healthcare organization...")
     st.write("## Real-Time Data Refresh")
     if st.button('Refresh Data'):
